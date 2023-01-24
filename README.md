@@ -36,7 +36,7 @@ Performance is measured using mean average precision and recall.
 
 <img width="1237" alt="Screenshot 2023-01-24 at 19 24 51" src="https://user-images.githubusercontent.com/118363955/214388940-2c9b2c04-b5a3-42d8-9bd0-ba972496877b.png">
 
-**Tools Used:**
+## **Tools Used:**
 
 Python was used to implement the search engine components. The libraries that were utilised to scape and prepare the data, implement the search engine and 
 run experiments with results are listed below:
@@ -45,3 +45,14 @@ run experiments with results are listed below:
 * **Pickle**: used to move data
 * **Pandas**: used to read csv file and transform it to a data frame
 * **PyTerrier**: used to **index data, apply the retrieval models, tune the parameters (field weights) for the BM25F model and run experiments**.
+
+## **Conclusion(s)**
+* BM25 is still the model to beat!
+* BM25F showed potential for the more difficult queries where even BM25 had low performance - the preamble is still an important section of regulation and the highly valuable content it contains continues to prove evasive for search engines to capture in relevance rankings. 
+
+## **Further research**
+* Field length normalisation - Preambles had varying lengths that could affect the results. Further research into field length normalisation
+* Improved use of queries for retrieval - It would be beneficial for multi-word queries to rank documents that contain 'word 1' AND 'word 2' higher
+* N-grams - using n-grams could better capture the proximity of terms in the text and queries to improve relevant document retrieval for domain-specific
+  topics that are made up of general terms
+
