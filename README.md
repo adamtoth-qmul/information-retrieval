@@ -36,7 +36,8 @@ Performance is measured using mean average precision and recall.
 
 <img width="1237" alt="Screenshot 2023-01-24 at 19 24 51" src="https://user-images.githubusercontent.com/118363955/214388940-2c9b2c04-b5a3-42d8-9bd0-ba972496877b.png">
 
-**Tools Used**
+**Tools Used:**
+
 Python was used to implement the search engine components. The libraries that were utilised to scape and prepare the data, implement the search engine and 
 run experiments with results are listed below:
 * **Beautiful Soup**: used to scrape HTML from the web containing the relevant documents
